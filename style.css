@@ -5,12 +5,43 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
-}
-  
-button{
+    }
+    
+    button{
     
     font-size: 24px;
     background-color: grey;
     color: white;
-}
-  
+    
+    
+    }
+    .menu-navegacion {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 1000;
+      }
+      
+      .menu-navegacion ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu-navegacion a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      }
+      
+      body {
+        padding-top: 60px; /* para que no tape el menú */
+      }
+      

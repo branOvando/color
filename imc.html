@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="estilos-imc.css">
+</head>
+<body class="cuerpo-pagina">
+
+    <nav class="menu-navegacion">
+        <ul>
+          <li><a href="imc.html">IMC</a></li>
+          <li><a href="index.html">Color</a></li>
+          <li><a href="cajas.html">Cajas</a></li>
+        </ul>
+      </nav>
+
+  <section class="seccion-calculadora-imc">
+    <h1 class="titulo-principal">Calculadora de Índice de Masa Corporal</h1>
+
+    <label for="peso" class="etiqueta-dato">Peso (kg):</label>
+    <input type="number" id="peso" class="campo-entrada">
+
+    <label for="altura" class="etiqueta-dato">Estatura (m):</label>
+    <input type="number" id="altura" class="campo-entrada">
+
+    <button id="botonCalcularIMC" class="boton-calcular-imc">Calcular IMC</button>
+
+    <div id="mensajeResultado" class="mensaje-resultado"></div>
+  </section>
+
+  <script src="script-imc.js"></script>
+</body>
+</html>
