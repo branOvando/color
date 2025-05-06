@@ -91,3 +91,35 @@
     padding-top: 60px; /* para que no tape el menú */
   }
   
+  /* Media Queries para la calculadora IMC */
+@media (max-width: 768px) {
+  .cuerpo-pagina {
+    padding: 20px;
+    height: auto;
+  }
+  
+  .seccion-calculadora-imc {
+    width: 80%;
+    padding: 30px;
+  }
+  
+  .boton-calcular-imc {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .seccion-calculadora-imc {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .titulo-principal {
+    font-size: 18px;
+  }
+  
+  .campo-entrada, .boton-calcular-imc {
+    font-size: 14px;
+  }
+}

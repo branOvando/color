@@ -87,4 +87,37 @@ button
   body {
     padding-top: 60px; /* para que no tape el menú */
   }
+  /* Media Queries para el grid de 3 columnas */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+    height: auto;
+  }
   
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .grid div {
+    font-size: 36px;
+    min-height: 70px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
